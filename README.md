@@ -60,9 +60,12 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
 - **Integration**: Emotion labels from Step 1 guide response selection
 
 Simplified main.py workflow
+
+`
 emotion = emotion_model.detect(frame)
 response = chatbot.generate_response(user_input, emotion)
 print(f"EmoC: {response}")
+`
 
 
 ---
