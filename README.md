@@ -9,7 +9,6 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
 - [Installation](#installation)
 - [Workflow](#workflow)
 - [Dataset Details](#dataset-details)
-- [Project Structure](#project-structure)
 - [Future Improvements](#future-improvements)
 - [License](#license)
 
@@ -41,6 +40,7 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
 4. Download assets:
 - **CK+ Dataset**: Extract `ck_plus_dataset.zip` to `data/` directory
 - **Pre-trained Models**:
+  
   ```
   huggingface-cli download psxog/EmoC emotion_model.pth --local-dir models/
   ```
@@ -71,21 +71,6 @@ print(f"EmoC: {response}")
 | CK+             | Train emotion detection model    | 593 video clips | Public research dataset    |
 | newdata.json    | Fine-tune chatbot responses      | JSON         | Custom conversation pairs  |
 
----
-
-## Project Structure
-
-EmoC/
-├── data/ # CK+ dataset directory
-├── models/ # emotion_model.pth
-├── ck_plus_dataset.zip # Raw dataset
-├── emotion_recognition.py # Inference script
-├── fine_tune_tinyllama_improved.py
-├── main.py # Entry point
-├── newdata.json # Custom chatbot data
-├── requirements.txt # Python dependencies
-└── train_emotion_model.py # Training script
-
 
 ---
 
@@ -109,8 +94,10 @@ Special thanks to the creators of the CK+ dataset and the developers of TinyLLam
 
 # How to Use EmoC
 1. **Run EmoC**:
+   ```
    python main.py
-2. **Interact**:
+   ```
+3. **Interact**:
 - EmoC will detect your emotions and respond accordingly.
 - You can input text to engage in conversation.
 
