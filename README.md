@@ -35,8 +35,10 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
   ```
 
 3. Install dependencies:
+```
    pip install -r requirements.txt
 
+```
 4. Download assets:
 - **CK+ Dataset**: Extract `ck_plus_dataset.zip` to `data/` directory
 - **Pre-trained Models**:
