@@ -30,14 +30,15 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
 
 ### Steps
 1. Clone repository:
-
-  git clone https://github.com/yourusername/EmoC.git
+  ```
+  git clone https://github.com/yourusername/EmoC.git  
   cd EmoC
+  ```
 
-2. Install dependencies:
+3. Install dependencies:
    pip install -r requirements.txt
 
-3. Download assets:
+4. Download assets:
 - **CK+ Dataset**: Extract `ck_plus_dataset.zip` to `data/` directory
 - **Pre-trained Models**:
   ```
