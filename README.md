@@ -42,7 +42,7 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
 - **Pre-trained Models**:
   
   ```
-  huggingface-cli download psxog/EmoC emotion_model.pth --local-dir models/
+  git clone https://huggingface.co/psxog/EmoC
   ```
 
 ---
