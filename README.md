@@ -76,7 +76,7 @@ print(f"EmoC: {response}")
 ## Dataset Details
 | Dataset         | Purpose                          | Format       | Source                     |
 |-----------------|----------------------------------|--------------|----------------------------|
-| CK+             | Train emotion detection model    | 593 video clips | Public research dataset    |
+| CK+             | Train emotion detection model    | PNG images  | Public research dataset    |
 | newdata.json    | Fine-tune chatbot responses      | JSON         | Custom conversation pairs  |
 
 
