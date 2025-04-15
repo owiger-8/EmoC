@@ -46,6 +46,7 @@ EmoC is a prototype system that combines **facial emotion recognition** with an 
   ```
   git clone https://huggingface.co/psxog/EmoC
   ```
+   And rename the folder to `fine_tuned_tinyllama`
 
 ---
 
