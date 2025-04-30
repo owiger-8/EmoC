@@ -17,7 +17,7 @@ class EmotionCNN(nn.Module):
         self.conv3 = nn.Conv2d(128, 256, kernel_size=3, padding=1)
         self.conv4 = nn.Conv2d(256, 512, kernel_size=3, padding=1)
         
-        # Pooling layer
+        
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
         
         # Batch normalization
